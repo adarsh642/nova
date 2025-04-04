@@ -1,7 +1,7 @@
 body {
     background-color: black;
-    overflow-y: hidden;
-     overflow-x: hidden;
+    overflow-x:hidden;
+     overflow-y:hidden;
 }
 .square{
     position: relative;
@@ -65,7 +65,7 @@ body {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(-360deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -76,4 +76,12 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+.ask-text {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    z-index: 2;
 }
